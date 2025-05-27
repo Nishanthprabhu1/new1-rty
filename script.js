@@ -51,7 +51,7 @@ faceMesh.onResults((results) => {
     leftEarPositions.push(left);
     rightEarPositions.push(right);
     if (leftEarPositions.length > 5) leftEarPositions.shift();
-    if (rightEarPositions.length > 5) rightEarPositions.shift();
+    if (rightEarPositions.length > 7) rightEarPositions.shift();
 
     const leftSmooth = smooth(leftEarPositions);
     const rightSmooth = smooth(rightEarPositions);
