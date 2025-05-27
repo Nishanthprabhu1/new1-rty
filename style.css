@@ -32,7 +32,7 @@ video, canvas {
   color: #ffd700;
   letter-spacing: 1px;
 }
-#options {
+#options#options {
   position: fixed;
   bottom: 30px;
   left: 50%;
@@ -44,6 +44,9 @@ video, canvas {
   padding: 10px 20px;
   border-radius: 16px;
   backdrop-filter: blur(10px);
+  max-width: 90%;
+  overflow-x: auto; /* Add horizontal scroll */
+  white-space: nowrap; /* Prevent wrapping */
 }
 #options button {
   background: transparent;
