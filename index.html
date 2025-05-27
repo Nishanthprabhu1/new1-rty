@@ -1,63 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Overlay Jewels Try-On</title>
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Webcam Feed -->
   <video id="webcam" autoplay muted playsinline></video>
   <canvas id="overlay"></canvas>
-
-  <!-- Branding -->
   <div id="branding">Overlay Jewels</div>
-
-  <!-- Earring Options -->
   <div id="options">
-    <button onclick="changeEarring('earring1.png')">
-      <img src="earrings/earring1.png" alt="Earring 1" />
-    </button>
-    <button onclick="changeEarring('earring2.png')">
-      <img src="earrings/earring2.png" alt="Earring 2" />
-    </button>
-    <button onclick="changeEarring('earring3.png')">
-      <img src="earrings/earring3.png" alt="Earring 3" />
-    </button>
-    <button onclick="changeEarring('earring4.png')">
-      <img src="earrings/earring4.png" alt="Earring 4" />
-    </button>
-    <button onclick="changeEarring('earring5.png')">
-      <img src="earrings/earring5.png" alt="Earring 5" />
-    </button>
-    <button onclick="changeEarring('earring6.png')">
-      <img src="earrings/earring6.png" alt="Earring 6" />
-    </button>
-    <button onclick="changeEarring('earring7.png')">
-      <img src="earrings/earring7.png" alt="Earring 7" />
-    </button>
-    <button onclick="changeEarring('earring8.png')">
-      <img src="earrings/earring8.png" alt="Earring 8" />
-    </button>
-    <button onclick="changeEarring('earring9.png')">
-      <img src="earrings/earring9.png" alt="Earring 9" />
-    </button>
-    <button onclick="changeEarring('earring10.png')">
-      <img src="earrings/earring10.png" alt="Earring 10" />
-    </button>
+    <button onclick="changeEarring('earring1.png')"><img src="earrings/earring1.png" alt="Earring 1" /></button>
+    <button onclick="changeEarring('earring2.png')"><img src="earrings/earring2.png" alt="Earring 2" /></button>
   </div>
-
-  <!-- MediaPipe FaceMesh -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
-
-  <!-- JS Logic -->
   <script src="script.js"></script>
 </body>
 </html>
