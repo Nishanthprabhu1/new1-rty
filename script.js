@@ -57,8 +57,8 @@ faceMesh.onResults((results) => {
     const rightSmooth = smooth(rightEarPositions);
 
     if (earringImg.complete) {
-      if (leftSmooth) canvasCtx.drawImage(earringImg, leftSmooth.x - 40, leftSmooth.y, 80, 100);
-      if (rightSmooth) canvasCtx.drawImage(earringImg, rightSmooth.x - 40, rightSmooth.y, 80, 100);
+      if (leftSmooth) canvasCtx.drawImage(earringImg, leftSmooth.x - 60, leftSmooth.y, 100, 100);
+      if (rightSmooth) canvasCtx.drawImage(earringImg, rightSmooth.x - 60, rightSmooth.y, 100, 100);
 
     }
   }
