@@ -58,7 +58,7 @@ faceMesh.onResults((results) => {
 
     if (earringImg.complete) {
       if (leftSmooth) canvasCtx.drawImage(earringImg, leftSmooth.x - 60, leftSmooth.y, 100, 100);
-      if (rightSmooth) canvasCtx.drawImage(earringImg, rightSmooth.x - 60, rightSmooth.y, 100, 100);
+      if (rightSmooth) canvasCtx.drawImage(earringImg, rightSmooth.x - 20, rightSmooth.y, 100, 100);
 
     }
   }
