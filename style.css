@@ -1,12 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body, html {
   width: 100%;
   height: 100%;
@@ -15,7 +12,6 @@ body, html {
   font-family: 'Poppins', sans-serif;
   color: #fff;
 }
-
 video, canvas {
   position: fixed;
   top: 0;
@@ -25,7 +21,6 @@ video, canvas {
   object-fit: cover;
   z-index: 1;
 }
-
 #branding {
   position: fixed;
   top: 20px;
@@ -37,7 +32,6 @@ video, canvas {
   color: #ffd700;
   letter-spacing: 1px;
 }
-
 #options {
   position: fixed;
   bottom: 30px;
@@ -51,14 +45,12 @@ video, canvas {
   border-radius: 16px;
   backdrop-filter: blur(10px);
 }
-
 #options button {
   background: transparent;
   border: none;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
-
 #options button img {
   width: 60px;
   height: 60px;
@@ -66,7 +58,6 @@ video, canvas {
   border: 2px solid transparent;
   transition: border 0.2s ease;
 }
-
 #options button:hover img {
   border: 2px solid #ffd700;
   transform: scale(1.05);
